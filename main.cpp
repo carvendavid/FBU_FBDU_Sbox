@@ -20,6 +20,8 @@
 //mis librerias
 #include "fbct.h"
 #include "fbdt.h"
+#include "lat.h"
+#include "ddt.h"
 #include "string_uchar.h"
 
 using namespace std;
@@ -178,6 +180,8 @@ int main(){
 
 
 	//FBCT(SBOX,n);
+	//LAT(SBOX,n,0);
+        //DDT(SBOX,n,0);
 	FBDT(SBOX,n);
   printf("CLEFIA\n");
 	return 0;
