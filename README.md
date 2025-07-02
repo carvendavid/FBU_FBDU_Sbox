@@ -16,7 +16,7 @@ In 2025, we added an extension to measure CarD1 and CarL1 properties of S-boxes 
 
 HOW TO USE?
 In the main.cpp file, you can find some examples. But if you to need some new S-boxes you only add a unsigned char matrix with the values of the S-box and its input size (n).
-Every function (FBCT, FBDT, DDT, LAT) takes three input parameters:
+Every function (DDT, LAT) takes three input parameters:
 
 	1. S-box
  	2. Input size (n)
